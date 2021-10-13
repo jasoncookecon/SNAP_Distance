@@ -7,7 +7,7 @@ author:
   - .hi-green[Sonya R. Porter], US Census Bureau
 output:
   xaringan::moon_reader:
-    css: ['default', 'metropolis', 'metropolis-fonts', 'my-css.css'] #,'ninjutsu'
+    css: ['default', 'metropolis', 'metropolis-fonts'] #,'ninjutsu'
     # self_contained: true
     nature:
       highlightStyle: github
@@ -17,6 +17,7 @@ output:
       
 
 ---
+htmltools::includeCSS("https://raw.githubusercontent.com/jasoncookecon/SNAP_Distance/blob/main/my-css.css")
 
 # Disclaimer
 
