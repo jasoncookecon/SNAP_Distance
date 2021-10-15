@@ -1,6 +1,6 @@
 ---
-title: "How Place and Need Intersect"
-subtitle: "How Lack of Retail and Enrollment Offices Deters Nutrition Assistance Take-Up"
+title: "How Place and Poverty Intersect"
+subtitle: "Geographic Barriers and Low SNAP Take-up"
 author: 
   - .hi-green[Marianne Bitler], UC Davis & NBER
   - .hi-green[Jason Cook], University of Utah
