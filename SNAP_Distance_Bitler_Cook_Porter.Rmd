@@ -7,7 +7,7 @@ author:
   - .hi-green[Sonya R. Porter], US Census Bureau
 output:
   xaringan::moon_reader:
-    css: ['default', 'metropolis', 'metropolis-fonts'] #,'ninjutsu'
+    css: ['default', 'metropolis', 'metropolis-fonts'] #, 'my-css.css'] #,'ninjutsu'
     # self_contained: true
     nature:
       highlightStyle: github
@@ -559,14 +559,14 @@ ggsave(
 ```
 - **"Any Office":** All offices, including those that neither open nor close.
 - **Meaningful share of recipients live near SNAP offices.**
-- Of the .hi-red[27,540,000 rural cases] we observe: <sup>*<sup/>
+- Of the .hi-red[27,540,000 rural clients] we observe: <sup>*<sup/>
   - 695,000 live < 1 mile of opening office (781,000 for closing office).
-- Of the .hi-blue[24,590,000 urban cases] we observe:
+- Of the .hi-blue[24,590,000 urban clients] we observe:
   - 452,000 live < 1 mile of opening office (843,000 for closing office).
   
 .footnote[<sup>*</sup>  Recall we only observe a subset of states in administrative data.]
 ---
-# .smaller[Case Characteristics by SNAP Office Type]
+# .smaller[Client Characteristics by SNAP Office Type]
 
 ```{r , include = F, echo=F}
 
@@ -641,7 +641,7 @@ ggsave(
 
 ---
 
-# .smaller[Case Characteristics by SNAP Office Type]
+# .smaller[Client Characteristics by SNAP Office Type]
 
 ```{r , include = F, echo=F}
 
@@ -721,7 +721,7 @@ ggsave(
 
 ---
 
-# .smaller[Case Characteristics by SNAP Office Type]
+# .smaller[Client Characteristics by SNAP Office Type]
 
 ```{r , include = F, echo=F}
 
@@ -1055,7 +1055,7 @@ ggsave(
 
 ---
 # \# of New SNAP Clients - Long Distance
-## Office Closures
+## Office Closings
 .smallest[]
 .pull-left[
 .center[ 
